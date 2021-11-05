@@ -12,6 +12,6 @@ chrome_options.add_argument("--no-sandbox")
 browser = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
 
 # Now you can start using Selenium
-browser.get("https://topirzul.co.il/admin-kivi")
+browser.get("https://google.com")
 print(browser.title)
 
