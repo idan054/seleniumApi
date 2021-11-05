@@ -14,3 +14,4 @@ browser = webdriver.Chrome(executable_pathheroku=os.environ.get("CHROMEDRIVER_PA
 # Now you can start using Selenium
 browser.get("https://topirzul.co.il/admin-kivi")
 print(browser.title)
+
