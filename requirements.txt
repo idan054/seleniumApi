@@ -67,3 +67,4 @@ webencodings==0.5.1
 Werkzeug==2.0.1
 yarl==1.6.3
 zipp==3.4.1
+selenium~=3.141.0
