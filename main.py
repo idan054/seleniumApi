@@ -13,5 +13,5 @@ browser = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), 
 
 # Now you can start using Selenium
 browser.get("https://topirzul.co.il/admin-kivi")
-print(browser.title)
+print(browser.page_source)
 
