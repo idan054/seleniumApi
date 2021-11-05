@@ -11,7 +11,6 @@ bs4==0.0.1
 certifi==2020.12.5
 chardet==4.0.0
 click==8.0.1
-color-printer==0.0.2
 colorama==0.4.4
 configure==0.5
 docutils==0.17.1
