@@ -3,7 +3,7 @@ import os
 
 ## Ready or Heroku deploy.
 
-chrome_options = webdriver.options()
+chrome_options = webdriver.ChromeOptions()
 # options.add_argument("--window-size=1100,900")
 chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
 chrome_options.add_argument("--headless")
